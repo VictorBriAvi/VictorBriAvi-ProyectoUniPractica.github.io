@@ -1,0 +1,70 @@
+/*Aca van todo las bases de la pagina*/
+:root {
+    --montserrat: 'Montserrat', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+}
+
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+@import url(./carousel.css);
+@import url(./normalize.css);
+@import url(./reset.css);
+
+/* CARD */
+@import url(./card/card-contenedor-producto.css);
+@import url(./card/card-productos.css);
+@import url(./card/card.css);
+
+/* cardCarousel */ 
+@import url(./cardCarousel/base.css);
+
+/* destacados */
+
+@import url(./destacados/destacados.css);
+
+/* diferencias */
+
+@import url(./diferencias/diferencias-iconos.css);
+@import url(./diferencias/diferencias-item-texto.css);
+@import url(./diferencias/diferencias-item-titulo.css);
+@import url(./diferencias/diferencias-item.css);
+@import url(./diferencias/diferencias-lista.css);
+@import url(./diferencias/diferencias.css);
+
+/* footer */
+
+@import url(./footer/footer-enlaces.css);
+@import url(./footer/footer-logo.css);
+@import url(./footer/footer-navegacion.css);
+@import url(./footer/footer-redes-sociales.css);
+@import url(./footer/footer-redes.css);
+@import url(./footer/footer.css);
+
+/* mapa */
+
+@import url(./mapa/mapa-imagen.css);
+@import url(./mapa/mapa-texto.css);
+@import url(./mapa/mapa-titulo.css);
+@import url(./mapa/mapa.css);
+
+/* menu */
+
+@import url(./menu/encabezado-logo.css);
+@import url(./menu/encabezado-menu-item.css);
+@import url(./menu/encabezado-menu-link.css);
+@import url(./menu/encabezado-menu.css);
+@import url(./menu/encabezado.css);
+
+/* principal */
+
+@import url(./principal/principal-boton.css);
+@import url(./principal/principal-texto.css);
+@import url(./principal/principal-titulo.css);
+@import url(./principal/principal.css);
+
+
+
